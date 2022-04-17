@@ -10,4 +10,4 @@ print(c)
 print(type (d))
 print(type (v))
 
-# whe we use triple 
+# when we use triple 
