@@ -13,6 +13,14 @@ print(b.islower()) # returns true if all characters of the string are lower case
 
 #---------------------------------------------------------------------------------------------
 
+# An application of lower and upper case
+
+name,n1=(input("enter your name and first letter of your name :-")).split(",")
+length=len(name)
+print(f"character count : {name.lower().count(n1.lower())}")
+
+#---------------------------------------------------------------------------------------------
+
 c = "vinit"
 print(c.capitalize()) #converts first character to upper case
 
@@ -63,6 +71,16 @@ print(k.rstrip('-')) #Returns the Right trim version of the string
 
 #---------------------------------------------------------------------------------------------
 
+# Application of r and l strip 
+
+name=("      Harshit       ")
+dots=".................... Idhar hai strip "
+add=name+dots
+print(name.lstrip(" ")+dots)
+print(name.rstrip(" ")+dots)
+print(name.strip(" ")+dots)
+
+
 l = "Programming"
 print(l.startswith('P')) #True if the string is starting with the specified value
 print(l.startswith('p')) #True if the string is starting with the specified value
@@ -106,6 +124,7 @@ print(string)
 
 #write a program to fill in a letter template given below with name and date ?
 
+print("/n")
 letter = '''Dear <|NAME|>,
              A letterhead is the heading at the top of a sheet of letter paper (stationery). 
 That heading usually consists of a name and an address, and a logo or corporate design, and sometimes a background pattern. The term "letterhead" is often used to refer to the whole sheet imprinted with such a heading. Many companies and individuals prefer to create a letterhead template in a word processor or other software application.
