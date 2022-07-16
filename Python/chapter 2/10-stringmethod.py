@@ -147,6 +147,38 @@ print(letter)
 
 
 
+#strings methods by Harshit 
+
+
+string="she is beautiful and she is good in dance"
+a=string.find("is")
+b=string.find("is",5)
+print(a,b)
+
+
+#---------------------------------------------------------------------
+
+
+#sentar method program
+
+name=input("enter your name :-")
+print(name.center(len(name) + 8 ,"*"))
+
+
+#----------------------------------------------------------------------
+
+#Strings are immutale 
+
+name=input("enter your name :-")
+name+= ("@student.onlinedegree"+".iitm.ac.in")
+print(name)
+
+
+
+
+
+
+
 
 
 
